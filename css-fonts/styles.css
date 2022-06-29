@@ -1,0 +1,10 @@
+h1, h2 {
+  font-family: 'Tangerine',
+  cursive;
+}
+
+p {
+  font-family: 'Yanone Kaffeesatz',
+  sans-serif;
+  line-height: 35px;
+}
