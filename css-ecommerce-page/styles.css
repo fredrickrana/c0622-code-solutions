@@ -3,7 +3,7 @@
 }
 
 .container {
-  max-width: 80%;
+  max-width: 100%;
   margin: auto;
 }
 
@@ -27,6 +27,18 @@
   flex-wrap: wrap;
 }
 
+.width-eighty {
+  width: 80%;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+h1 {
+  font-size: 26px;
+}
+
 img {
   width: 240px;
   height: 320px;
@@ -37,10 +49,10 @@ span {
   color: #d5d5d5;
 }
 
-.line-through {
-  text-decoration: line-through;
+mark {
+  background-color: #fff2e6;
 }
 
-.highlight {
-  background-color: #fff2e6;
+.line-through {
+  text-decoration: line-through;
 }
