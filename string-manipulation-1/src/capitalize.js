@@ -22,3 +22,18 @@ function capitalize(word) {
   }
   return alphabet;
 }
+
+// alternate solution, attempted to make function more efficient
+
+// function capitalize(word) {
+//   if (word.length === 1) {
+//     return word.toUpperCase();
+//   } else {
+//     var lower = word.toLowerCase();
+//     var upper = lower[0].toUpperCase();
+//     for (var i = 1; i < lower.length; i++) {
+//       var fullWord = upper += lower[i];
+//     }
+//     return fullWord;
+//   }
+// }
