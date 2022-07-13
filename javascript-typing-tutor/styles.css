@@ -1,0 +1,39 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.height-70 {
+  height: 70vh;
+}
+
+span {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+.color-green {
+  color: #1ccd1a;
+}
+
+.color-red {
+  color: #f80805;
+  border-bottom: #f80805 solid;
+}
+
+.border-bottom {
+  border-bottom: #000 solid;
+}
