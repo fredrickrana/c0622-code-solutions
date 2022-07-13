@@ -1,18 +1,17 @@
 var $modal = document.querySelector('.modal');
 var $modalButton = document.querySelector('.modal-button');
 var $noButton = document.querySelector('.no-button');
-var $container = document.querySelector('.container');
+var $layout = document.querySelector('.modal-layout');
 
 function openModal(event) {
-  $modalButton.className = 'modal-button brightness-20';
+  $layout.className = 'row modal-layout position-fixed';
   $modal.className = 'modal';
-  $container.className = 'container background-dark';
 }
 $modalButton.addEventListener('click', openModal);
 
 function closeModal(event) {
   $modalButton.className = 'modal-button';
   $modal.className = 'display-none';
-  $container.className = 'container';
+  $layout.className = 'row modal-layout';
 }
 $noButton.addEventListener('click', closeModal);

@@ -8,16 +8,20 @@
   display: flex;
 }
 
+.modal-layout {
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+
 .justify-center {
   justify-content: center;
 }
 
-.align-center {
-  align-items: center;
-}
-
-.height-70 {
-  height: 70vh;
+.position-fixed {
+  position: fixed;
+  top: 0%;
 }
 
 h2 {
@@ -29,6 +33,7 @@ h2 {
   border-radius: 8px;
   padding: 50px 70px;
   background-color: white;
+  box-shadow: 0 0 0 100vh rgb(50 50 50 / 95%);
 }
 
 .modal-button {
@@ -54,12 +59,4 @@ h2 {
 
 .display-none {
   display: none;
-}
-
-.brightness-20 {
-  filter: brightness(20%);
-}
-
-.background-dark {
-  background-color: #323232;
 }
