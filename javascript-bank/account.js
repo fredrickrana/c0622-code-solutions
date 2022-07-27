@@ -10,9 +10,7 @@ Account.prototype.deposit = function (amount) {
   if (Number.isInteger(amount) !== true || amount < 1) {
     return false;
   } else {
-    var newDeposit = new Transaction();
-    newDeposit.type = 'deposit';
-    newDeposit.amount = amount;
+    var newDeposit = new Transaction('deposit', amount);
     this.transactions.push(newDeposit);
     return true;
   }
@@ -21,9 +19,7 @@ Account.prototype.withdraw = function (amount) {
   if (Number.isInteger(amount) !== true || amount < 1) {
     return false;
   } else {
-    var newWithdraw = new Transaction();
-    newWithdraw.type = 'withdrawal';
-    newWithdraw.amount = amount;
+    var newWithdraw = new Transaction('withdrawal', amount);
     this.transactions.push(newWithdraw);
     return true;
   }
