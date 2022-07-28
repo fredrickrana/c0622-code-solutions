@@ -27,7 +27,7 @@ function moveLeft(event) {
 $leftArrow.addEventListener('click', moveLeft);
 
 function moveRight(event) {
-  var $currentImage = 4;
+  var $currentImage = $pokemonArray.length - 1;
   for (var i = 0; i < $pokemonArray.length; i++) {
     if ($pokemonImage.getAttribute('src') === $pokemonArray[$currentImage]) {
       $pokemonImage.setAttribute('src', $pokemonArray[i]);
