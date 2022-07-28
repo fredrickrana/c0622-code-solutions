@@ -7,11 +7,12 @@ var $allCircles = document.querySelectorAll('.circle');
 var $carousel = setInterval(moveRight, 3000);
 
 function moveLeft(event) {
+  var $currentImage = 0;
   for (var i = $pokemonArray.length - 1; i >= 0; i--) {
-    if ($pokemonImage.getAttribute('src') === 'images/001.png') {
+    if ($pokemonImage.getAttribute('src') === $pokemonArray[$currentImage]) {
       $pokemonImage.setAttribute('src', $pokemonArray[i]);
       $allCircles[i].className = 'fas fa-circle circle';
-      $allCircles[0].className = 'far fa-circle circle';
+      $allCircles[$currentImage].className = 'far fa-circle circle';
       resetInterval();
       return;
     } else if ($pokemonImage.getAttribute('src') === $pokemonArray[i]) {
@@ -26,11 +27,12 @@ function moveLeft(event) {
 $leftArrow.addEventListener('click', moveLeft);
 
 function moveRight(event) {
+  var $currentImage = 4;
   for (var i = 0; i < $pokemonArray.length; i++) {
-    if ($pokemonImage.getAttribute('src') === 'images/039.png') {
+    if ($pokemonImage.getAttribute('src') === $pokemonArray[$currentImage]) {
       $pokemonImage.setAttribute('src', $pokemonArray[i]);
       $allCircles[i].className = 'fas fa-circle circle';
-      $allCircles[4].className = 'far fa-circle circle';
+      $allCircles[$currentImage].className = 'far fa-circle circle';
       resetInterval();
       return;
     } else if ($pokemonImage.getAttribute('src') === $pokemonArray[i]) {
