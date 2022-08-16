@@ -1,0 +1,500 @@
+   53  git push origin javascript-functions-practice
+   54  git status
+   55  git switch main
+   56  clear
+   57  git status
+   58  git branch css-cascade
+   59  git switch css-cascade
+   60  git status
+   61  git add css-cascade
+   62  git commit -m 'completed css-cascade'
+   63  git status
+   64  git push origin css-cascade
+   65  git status
+   66  git switch main
+   67  clear
+   68  git switch css-cascade
+   69  git status
+   70  git add css-cascade
+   71  git status
+   72  git commit -m 'rearranged css rule sets to be above each previous rule according to instructions'
+   73  git push origin css-cascade
+   74  git status
+   75  git switch main
+   76  clear
+   77  git status
+   78  git branch javascript-methods
+   79  git switch javascript-methods
+   80  git status
+   81  git add css-ecommerce-page
+   82  git commit -m 'in progress'
+   83  git status
+   84  git switch main
+   85  clear
+   86  git status
+   87  git branch javascript-loops
+   88  git switch javascript-loops
+   89  git add javascript-if
+   90  git status
+   91  git commit -m 'completed javascript-if'
+   92  clear
+   93  git status
+   94  git push origin javascript-if
+   95  git status
+   96  git switch main
+   97  clear
+   98  git branch css-ecommerce-page
+   99  git switch css-ecommerce-page
+  100  git status
+  101  git add css-ecommerce-page
+  102  git commit -m 'completed css-ecommerce-page'
+  103  git push origin css-ecommerce-page
+  104  git status
+  105  git switch main
+  106  git status
+  107  git add javascript-loops
+  108  git commit -m 'completed javascript-loops'
+  109  git push origin javascript-loops
+  110  git status
+  111  git switch main
+  112  git switch css-ecommerce-page
+  113  git status
+  114  git add string-manipulation-1
+  115  git status
+  116  clear
+  117  git commit -m 'completed string-manipulation-1'
+  118  clear
+  119  git push origin string-manipulation-1
+  120  git status
+  121  git status
+  122  git status
+  123  git add string-manipulation-1
+  124  git commit -m 'added an alternate solution in an attempt to make a more efficient function'
+  125  git push origin string-manipulation-1
+  126  git status
+  127  git switch main
+  128  clear
+  129  git status
+  130  git branch array-manipulation-1
+  131  git switch array-manipulation-1
+  132  git status
+  133  git add javascript-loops-practice
+  134  git commit -m 'completed javascript-loops-practice'
+  135  git status
+  136  git push origin javascript-loops-practice
+  137  git status
+  138  git switch main
+  139  clear
+  140  git branch string-manipulation-1
+  141  git switch string-manipulation-1
+  142  git status
+  143  git branch javascript-loops-practice
+  144  git switch javascript-loops-practice
+  145  git status
+  146  clear
+  147  git status
+  148  git add array-manipulation-1
+  149  git commit -m 'completed array-manipulation-1'
+  150  clear
+  151  git push origin array-manipulation-1
+  152  git switch string-manipulation-1
+  153  git status
+  154  git add string-manipulation-1
+  155  git commit -m 'in progress'
+  156  git status
+  157  git switch main
+  158  git branch dom-events
+  159  git switch dom-events
+  160  git status
+  161  git add dom-querying
+  162  git status
+  163  git commit -m 'completed dom-querying'
+  164  git status
+  165  git push origin dom-querying
+  166  git status
+  167  git switch main
+  168  git status
+  169  git add object-manipulation-1
+  170  git commit -m 'completed object-manipulation-1'
+  171  clear
+  172  git status
+  173  git push origin object-manipulation-1
+  174  git status
+  175  git switch main
+  176  clear
+  177  git status
+  178  git branch dom-querying
+  179  git switch dom-querying
+  180  git status
+  181  git switch main
+  182  git branch object-manipulation-1
+  183  git switch object-manipulation-1
+  184  git status
+  185  git status
+  186  git commit -m 'completed dom-events'
+  187  clear
+  188  git push origin dom-events
+  189  git status
+  190  git switch main
+  191  git switch string-manipulation-1
+  192  git status
+  193  git add string-manipulation-1
+  194  git commit -m 'simplified capitalize function solution. changed pseudo code.'
+  195  git status
+  196  git push origin string-manipulation-1
+  197  clear
+  198  git status
+  199  git switch main
+  200  git status
+  201  git add dom-events
+  202  git commit -m 'completed dom-events
+  203  clear
+  204  git status
+  205  git branch dom-manipulation
+  206  git switch dom-manipulation
+  207  git status
+  208  git add dom-manipulation
+  209  git status
+  210  git commit -m 'completed dom-manipulation'
+  211  git push origin dom-manipulation
+  212  git status
+  213  git switch main
+  214  clear
+  215  git status
+  216  git branch string-manipulation-2
+  217  git switch string-manipulation-2
+  218  git branch css-transforms
+  219  git switch css-transforms
+  220  git status
+  221  git add string-manipulation-2
+  222  git commit -m 'in progress'
+  223  clear
+  224  git status
+  225  git switch main
+  226  git status
+  227  git add javascript-light-bulb
+  228  git status
+  229  git commit -m 'completed javascript-light-bulb'
+  230  git push origin javascript-light-bulb
+  231  git status
+  232  git status
+  233  git switch main
+  234  clear
+  235  git branch javascript-modal
+  236  git switch javascript-modal
+  237  clear
+  238  git status
+  239  git add css-transforms
+  240  git commit -m 'completed css-transforms'
+  241  git push origin css-transforms
+  242  git add css-transitions
+  243  git commit -m 'completed css-transitions'
+  244  git status
+  245  git push origin css-transitions
+  246  git status
+  247  git switch main
+  248  clear
+  249  git status
+  250  git switch main
+  251  git status
+  252  git branch javascript-light-bulb
+  253  git switch javascript-light-bulb
+  254  git status
+  255  git branch javascript-forms
+  256  git switch javascript-forms
+  257  git status
+  258  clear
+  259  git status
+  260  git add javascript-forms
+  261  git commit -m 'completed javascript-forms'
+  262  git push origin javascript-forms
+  263  git status
+  264  git switch main
+  265  clear
+  266  git switch javascript-modal
+  267  git status
+  268  git switch main
+  269  clear
+  270  git status
+  271  git branch dom-event-delegation
+  272  git switch dom-event-delegation
+  273  git status
+  274  git status
+  275  git add css-media-queries
+  276  git commit -m 'completed css-media-queries'
+  277  clear
+  278  git push origin css-media-queries
+  279  clear
+  280  git status
+  281  clear
+  282  git status
+  283  git branch css-media-queries
+  284  git switch css-media-queries
+  285  git status
+  286  git add dom-event-delegation
+  287  git commit -m 'completed dom-event-delegation'
+  288  git push origin dom-event-delegation
+  289  git status
+  290  clear
+  291  git status
+  292  git switch main
+  293  git status
+  294  git branch object-manipulation-2
+  295  git switch object-manipulation-2
+  296  git status
+  297  git status
+  298  git add object-manipulation-2
+  299  git commit -m 'in progress'
+  300  clear
+  301  git status
+  302  git switch main
+  303  git branch javascript-view-swapping
+  304  git switch javascript-view-swapping
+  305  git status
+  306  git status
+  307  git switch main
+  308  clear
+  309  git status
+  310  git switch object-manipulation-2
+  311  git status
+  312  git add css-responsive-layout
+  313  git status
+  314  git commit -m 'completed css-responsive-layout'
+  315  clear
+  316  git status
+  317  git push origin css-responsive-layout
+  318  clear
+  319  git status
+  320  git switch main
+  321  clear
+  322  git status
+  323  clear
+  324  git status
+  325  git pull origin main
+  326  clear
+  327  git status
+  328  clear
+  329  git status
+  330  git add javascript-and-json
+  331  git commit -m 'completed javascript-and-json'
+  332  git push origin javascript-and-json
+  333  git status
+  334  clear
+  335  git status
+  336  git switch main
+  337  clear
+  338  git status
+  339  git switch javascript-typing-tutor
+  340  git status
+  341  git branch javascript-and-json
+  342  git switch javascript-and-json
+  343  git status
+  344  git status
+  345  git add javascript-typing-tutor
+  346  git commit -m 'adding personal stretch features. in progress.'
+  347  git status
+  348  git switch main
+  349  clear
+  350  git status
+  351  git branch javascript-local-storage
+  352  git switch javascript-local-storage
+  353  git status
+  354  git switch object-manipulation-3
+  355  git status
+  356  git switch object-manipulation-2
+  357  git status
+  358  git status
+  359  git add javascript-local-storage
+  360  git status
+  361  git commit -m 'completed javascript-local-storage'
+  362  clear
+  363  git push origin javascript-local-storage
+  364  git status
+  365  git switch main
+  366  clear
+  367  git status
+  368  git branch javascript-custom-methods
+  369  git switch javascript-custom-methods
+  370  git status
+  371  git status
+  372  git add javascript-custom-methods
+  373  git commit -m 'completed javascript-custom-methods'
+  374  clear
+  375  git status
+  376  git push origin javascript-custom-methods
+  377  git status
+  378  clear
+  379  git switch main
+  380  git status
+  381  git add javascript-this
+  382  git status
+  383  git commit -m 'completed javascript-this'
+  384  git status
+  385  git push origin javascript-this
+  386  git status
+  387  git switch main
+  388  clear
+  389  git status
+  390  git branch javascript-this
+  391  git switch javascript-this
+  392  git status
+  393  git add javascript-prototypes
+  394  git commit -m 'completed javascript-prototypes'
+  395  clear
+  396  git push origin javascript-prototypes
+  397  git status
+  398  git branch javascript-prototypes
+  399  git switch javascript-prototypes
+  400  git status
+  401  git status
+  402  git add string-manipulation-3
+  403  git commit -m 'in progress'
+  404  clear
+  405  git status
+  406  git switch main
+  407  git branch javascript-constructors
+  408  git switch javascript-constructors
+  409  git status
+  410  git status
+  411  git branch javascript-bank
+  412  git switch javascript-bank
+  413  clear
+  414  git status
+  415  git status
+  416  git branch javascript-timers
+  417  git switch javascript-timers
+  418  git status
+  419  clear
+  420  git status
+  421  git add string-manipulation-3
+  422  git commit -m 'in progress'
+  423  clear
+  424  git switch main
+  425  git switch javascript-timers
+  426  git status
+  427  git switch main
+  428  git pull origin main
+  429  clear
+  430  git switch javascript-ajax
+  431  clear
+  432  curl -XPOST https://api.nutritionix.com/v1_1/search -H 'Content-Type: application/json' -d'
+  433  {
+  434   "appId":"c1c2ced9",
+  435   "appKey":"19a1f4d4685124bab4d6e8bc48e92f32",
+  436   "query":"Cookies `n Cream"
+  437  }
+  438  http -XPOST https://api.nutritionix.com/v1_1/search -H 'Content-Type: application/json' -d'
+  439  {
+  440   "appId":"c1c2ced9",
+  441   "appKey":"19a1f4d4685124bab4d6e8bc48e92f32",
+  442   "query":"Cookies `n Cream"
+  443  }
+  444  '
+  445  curl -XPOST https://api.nutritionix.com/v1_1/search -H 'Content-Type: application/json' -d'
+  446  {
+  447   "appId":"c1c2ced9",
+  448   "appKey":"19a1f4d4685124bab4d6e8bc48e92f32",
+  449   "query":"Cookies `n Cream"
+  450  }
+  451  clear
+  452  http GET https://api.nutritionix.com/v1_1/search -H 'Content-Type: application/json' -d'
+  453  {
+  454   "appId":"c1c2ced9",
+  455   "appKey":"19a1f4d4685124bab4d6e8bc48e92f32",
+  456   "query":"Cookies `n Cream"
+  457  }
+  458  '
+  459  http POST https://api.nutritionix.com/v1_1/search -H 'Content-Type: application/json' -d'
+  460  {
+  461   "appId":"c1c2ced9",
+  462   "appKey":"19a1f4d4685124bab4d6e8bc48e92f32",
+  463   "query":"Cookies `n Cream"
+  464  }
+  465  '
+  466  clear
+  467  http GET https://api.nutritionix.com/v1_1/search -H  appId:c1c2ced9 appKey:19a1f4d4685124bab4d6e8bc48e92f32
+  468  http GET https://api.nutritionix.com/v1_1/search -H  'appId:c1c2ced9' 'appKey:19a1f4d4685124bab4d6e8bc48e92f32'
+  469  http GET https://api.nutritionix.com/v1_1/search  'appId:c1c2ced9' 'appKey:19a1f4d4685124bab4d6e8bc48e92f32'
+  470  http GET https://api.nutritionix.com/v1_1/search  'appId:c1c2ced9' 'appKey:19a1f4d4685124bab4d6e8bc48e92f32' 'query:apple'
+  471  http GET https://api.nutritionix.com/v1_1/search  'appId:c1c2ced9' 'appKey:19a1f4d4685124bab4d6e8bc48e92f32' 'query:cookie'
+  472  http GET https://api.nutritionix.com/v1_1/search  'appId:c1c2ced9' 'appKey:19a1f4d4685124bab4d6e8bc48e92f32' query='apple'
+  473  http get https://api.edamam.com/api/nutrition-data
+  474  http GET https://api.nutritionix.com/v1_1/search  'appId:c1c2ced9' 'appKey:19a1f4d4685124bab4d6e8bc48e92f32' query='almonds'
+  475  http get https://wger.de/api/v2/workout/ 'authorization: 5aa177fc5b49d8c4809b63a570bc359b2ee71fed'
+  476  http get https://wger.de/api/v2/workout/ 'Authorization: 5aa177fc5b49d8c4809b63a570bc359b2ee71fed'
+  477  http get https://wger.de/api/v2/workout/ 'Authorization: 5aa177fc5b49d8c4809b63a570bc359b2ee71fed'
+  478  http get https://wger.de/api/v2/workout/ 'Authorization: Token 5aa177fc5b49d8c4809b63a570bc359b2ee71fed'
+  479  http get https://wger.de/api/v2/ingredient/ 'Authorization: Token 5aa177fc5b49d8c4809b63a570bc359b2ee71fed'
+  480  http get https://wger.de/api/v2/ingredientinfo/ 'Authorization: Token 5aa177fc5b49d8c4809b63a570bc359b2ee71fed'
+  481  http get https://wger.de/api/v2/ingredient/ 'Authorization: Token 5aa177fc5b49d8c4809b63a570bc359b2ee71fed'
+  482  http GET https://api.nutritionix.com/v1_1/search  'appId:c1c2ced9' 'appKey:19a1f4d4685124bab4d6e8bc48e92f32' query='almonds'
+  483  clear
+  484  git status
+  485  git switch main
+  486  git status
+  487  git switch array-manipulation-3
+  488  git status
+  489  git status
+  490  git status
+  491  git switch array-manipulation-3
+  492  git status
+  493  git add array-manipulation-3
+  494  git commit -m 'completed array-manipulation-3'
+  495  git status
+  496  git push origin array-manipulation-3
+  497  git status
+  498  git switch main
+  499  git switch string-manipulation-2
+  500  cd command-line-basics
+  501  man man
+  502  man cat
+  503  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  504  cat laziness.txt
+  505  cat impatience.txt
+  506  cat hubris.txt
+  507  cat three-virtues.txt
+  508  man ls
+  509  man cat
+  510  man ls
+  511  ls -a
+  512  ls -F
+  513  lfz-staff/ -a
+  514  ls lfx-staff/
+  515  ls lfz-staff/
+  516  ls -aF lfz-staff > lfz-staff/contents.txt
+  517  cat lfz-staff/contents.txt
+  518  man pwd
+  519  pwd > i-was-here.txt
+  520  ls /workspaces/c0622-code-solutions/command-line-basics
+  521  cat i-was-here.txt
+  522  man echo
+  523  echo 'Hello, World!'
+  524  echo 'Hello, World!' > hello.txt
+  525  cat hello.txt
+  526  man touch
+  527  touch tag-youre-it.txt
+  528  touch snoot/boop.txt
+  529  man mkdir
+  530  mkdir parent
+  531  ls parent/
+  532  mkdir -p
+  533  mkdir -p parent/child/grandchild
+  534  ls -a
+  535  man mv
+  536  man mv
+  537  mv pokiemans
+  538  mv pokiemans pokemon
+  539  ls /workspaces/c0622-code-solutions/command-line-basics
+  540  man rm
+  541  rm lol.text
+  542  rm lol.txt
+  543  rom -r kill-me/
+  544  rm -r
+  545  rm -r kill-me/
+  546  man cp
+  547  cp and-then.txt no-and-then.txt
+  548  cat and-then.txt
+  549  cat no-and-then.txt
+  550  man history
+  551  history
+  552  history > command-history.txt
