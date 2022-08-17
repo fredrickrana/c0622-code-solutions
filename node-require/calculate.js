@@ -2,7 +2,6 @@ const add = require('./add');
 const subtract = require('./subtract');
 const multiply = require('./multiply');
 const divide = require('./divide');
-// require is a function used to import other modules
 
 const operation = process.argv[3];
 const x = parseFloat(process.argv[2]);
@@ -19,11 +18,3 @@ if (operation === '+' || operation === 'plus') {
 } else {
   console.log('invalid operation');
 }
-
-// process.argv() method is used for returning all the command-line arguments that were passed when the Node.js process was being launched
-// process.argv produces a string
-
-// node module.js firstArg secondArg
-// process.argv[0] === 'node'
-// process.argv[1] === 'myprogram.js'
-// process.argv[2] === 'firstarg'
