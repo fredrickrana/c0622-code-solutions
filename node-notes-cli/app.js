@@ -20,15 +20,11 @@ if (action === 'create') {
 
 // node app.js update
 if (action === 'update') {
-  for (var id in dataJSON.notes) {
-    if (process.argv[3] === id) {
-      const notes = dataJSON.notes;
-      notes[id] = process.argv[4];
-      fs.writeFile('./data.json', JSON.stringify(dataJSON, null, 2), err => {
-        if (err) throw err;
-      });
-    }
-  }
+  const notes = dataJSON.notes;
+  notes[process.argv[3]] = process.argv[4];
+  fs.writeFile('./data.json', JSON.stringify(dataJSON, null, 2), err => {
+    if (err) throw err;
+  });
 }
 
 // node app.js delete
