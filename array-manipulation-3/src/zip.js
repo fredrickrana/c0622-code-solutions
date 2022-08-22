@@ -1,10 +1,8 @@
 /* exported zip */
 
 // make sure that the length of both arrays are equal to each other
-// if both arrays are not equal to each other, delete the last element of the array with greater length until both lengths are equal
-// if first array is larger, delete until it matches length of second array
-// if second array is larger, delete until it matches length of the first array
-// once arrays have equal length, create three empty arrays
+// if the length of the both arrays are not equal to each other, take the length of the shorter array
+// create three empty arrays
 // the first array is going to store the values found within the first array
 // the second array is going to store the values found within the second array
 // the third array will be storing all values and will be returned from the function
@@ -13,20 +11,22 @@
 // combine the elements within each array and store into a seperate array (third)
 // delete the elements of the previous arrays (first and second) so that it returns back to an empty array
 // continue to add all elements to the third array
+// continue with the iteration based off of the length of the shorter array
 // return the third array from the function
 
 function zip(first, second) {
+  var arrayLength = first.length;
   if (first.length !== second.length) {
     if (first.length > second.length) {
-      first.splice(first.length - 1);
-    } else if (second.length > first.length) {
-      second.splice(second.length - 1);
+      arrayLength = second.length;
     }
+  } else if (second.length > first.length) {
+    arrayLength = first.length;
   }
   var combine = [];
   var combineTwo = [];
   var combineThree = [];
-  for (var i = 0; i < first.length; i++) {
+  for (var i = 0; i < arrayLength; i++) {
     combine.push(first[i]);
     combineTwo.push(second[i]);
     var arrayThree = combine.concat(combineTwo);
