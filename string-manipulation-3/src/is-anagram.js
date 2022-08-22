@@ -1,5 +1,6 @@
 /* exported isAnagram */
 
+// assume not allowed to alter the strings into arrays
 // use the replaceAll method to replace the spaces within the string to an empty string. This would delete any of the spaces within the string.
 // remove the spaces for both firstString and secondString.
 // some words use the same letter multiple times and would bypass the includes method, so create two counter variables with the value of zero.
