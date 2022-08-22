@@ -19,8 +19,8 @@ app.post('/api/grades', (req, res) => {
   data.id = nextId;
   grades[data.id] = data;
   nextId++;
-  res.send(data);
   res.status(201);
+  res.send(data);
 });
 
 app.listen(3000, () => {
