@@ -17,7 +17,7 @@ app.get('/api/notes', (req, res) => {
 
 app.get('/api/notes/:id', (req, res) => {
   const id = req.params.id;
-  if (Number.isInteger(Number(id)) === false || Math.sign(id) === -1) {
+  if (Number.isInteger(Number(id)) === false || Math.sign(id) === -1 || Number(id) === 0) {
     res.status(400).json({ error: 'id must be a postive integer' });
   } else if (noteDetails[id] === undefined) {
     res.status(404).json({ error: `cannot find note with id ${id}` });
@@ -51,7 +51,7 @@ app.post('/api/notes', (req, res) => {
 
 app.delete('/api/notes/:id', (req, res) => {
   const id = req.params.id;
-  if (Number.isInteger(Number(id)) === false || Math.sign(id) === -1) {
+  if (Number.isInteger(Number(id)) === false || Math.sign(id) === -1 || Number(id) === 0) {
     res.status(400).json({ error: 'id must be a postive integer' });
   } else if (noteDetails[id] === undefined) {
     res.status(404).json({ error: `cannot find note with id ${id}` });
@@ -61,16 +61,17 @@ app.delete('/api/notes/:id', (req, res) => {
       if (err) {
         console.error(err);
         res.status(500).json({ error: 'An unexpected error occurred.' });
+      } else {
+        res.status(204);
       }
     });
-    res.sendStatus(204);
   }
 });
 
 app.put('/api/notes/:id', (req, res) => {
   const id = req.params.id;
   const note = req.body;
-  if (Number.isInteger(Number(id)) === false || Math.sign(id) === -1) {
+  if (Number.isInteger(Number(id)) === false || Math.sign(id) === -1 || Number(id) === 0) {
     res.status(400).json({ error: 'id must be a postive integer' });
   } else if (note.content === undefined) {
     res.status(400).json({ error: 'content is a required field' });
@@ -85,9 +86,10 @@ app.put('/api/notes/:id', (req, res) => {
       if (err) {
         console.error(err);
         res.status(500).json({ error: 'An unexpected error occurred.' });
+      } else {
+        res.status(200);
+        res.send(noteDetails[id]);
       }
-      res.status(200);
-      res.send(noteDetails[id]);
     });
   }
 });
