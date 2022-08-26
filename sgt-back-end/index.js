@@ -105,8 +105,7 @@ app.delete('/api/grades/:id', (req, res) => {
   db.query(sql, params)
     .then(result => {
       if (result.rowCount === 1) {
-        const successMessage = { success: `The gradeId ${id} was deleted.` };
-        return res.status(204).send(successMessage);
+        return res.status(204).json();
       } else {
         const errorMessage = { error: `Cannot find note with id ${id}` };
         return res.status(404).send(errorMessage);
