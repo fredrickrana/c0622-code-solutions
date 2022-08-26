@@ -58,8 +58,8 @@ app.put('/api/grades/:id', (req, res) => {
   const course = req.body.course;
   const score = req.body.score;
   const id = Number(req.params.id);
-  if (name === undefined || course === undefined || score === undefined || Number.isInteger(Number(score)) === false || score < 0 || score > 100) {
-    const errorMessage = { error: 'A required content is missing or score must be an integer between 0 and 100.' };
+  if (name === undefined || course === undefined || score === undefined || Number.isInteger(Number(score)) === false || score < 0 || score > 100 || Math.sign(id) === -1) {
+    const errorMessage = { error: 'A required content is missing or score must be an integer between 0 and 100 or id must be a positive integer.' };
     res.status(400).send(errorMessage);
     return;
   }
