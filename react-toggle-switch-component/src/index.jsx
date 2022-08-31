@@ -5,4 +5,8 @@ import ToggleSwitch from './toggle.switch';
 const container = document.querySelector('#root');
 const root = ReactDOM.createRoot(container);
 
-root.render(<ToggleSwitch />);
+root.render(
+  <div>
+    <ToggleSwitch />
+  </div>
+);
