@@ -1,0 +1,29 @@
+.purple {
+  background-color: purple;
+  color: #fff;
+}
+
+.light-purple {
+  background-color: #674ea7;
+  color: #fff;
+}
+
+.pink {
+  background-color: #e06666;
+  color: #fff;
+}
+
+.orange {
+  background-color: orange;
+  color: #000;
+}
+
+.yellow {
+  background-color: yellow;
+  color: #000;
+}
+
+.white {
+  background-color: #fff;
+  color: #000;
+}
