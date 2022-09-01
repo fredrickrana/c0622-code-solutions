@@ -1,0 +1,20 @@
+.container {
+  max-width: 130px;
+  margin: auto;
+}
+
+.circle {
+  border-radius: 100px;
+  padding: 20px;
+  border: solid #000 4px;
+}
+
+.alignment {
+  text-align: center;
+  margin-top: 90px;
+}
+
+i {
+  font-size: 30px;
+  margin-top: 15px;
+}
