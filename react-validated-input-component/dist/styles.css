@@ -1,0 +1,25 @@
+.hidden {
+  display: none;
+}
+
+i {
+  display: inline;
+  padding-left: 10px;
+}
+
+.fa-x {
+  color: red;
+}
+
+.fa-check {
+  color: green;
+}
+
+.color-red {
+  color: red;
+}
+
+input {
+  border: solid #000 2px;
+  padding: 3px 10px;
+}
