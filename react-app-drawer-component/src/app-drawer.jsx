@@ -11,22 +11,24 @@ export default class AppDrawer extends React.Component {
     this.setState({ open: !this.state.open });
   }
 
-  // render() {
-  //   let className;
-  //   if (this.state.open) {
-  //     className = '';
-  //   } else {
-  //     className = 'hidden';
-  //   }
-  //   return (
-  // <div>
-  //   <div>
-  //     <i className="fa-solid fa-bars"></i>
-  //   </div>
-  //   <div>
-
-  //   </div>
-  // </div>
-  // )
-//   }
+  render() {
+    const modalBackground = (!this.state.open) ? 'hidden' : 'modal-background';
+    const modal = (!this.state.open) ? 'hidden' : 'modal';
+    const menuButton = (!this.state.open) ? 'fa-solid fa-bars' : 'hidden';
+    return (
+      <div>
+        <div className={modalBackground} onClick={this.handleClick}>
+        </div>
+        <i className={menuButton} onClick={this.handleClick}></i>
+        <div className={modal}>
+          <div className='modal-content'>
+            <a href="#" className="menu-title">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Get Started</a>
+            <a href="#">Sign In</a>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
