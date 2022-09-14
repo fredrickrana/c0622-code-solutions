@@ -1,0 +1,52 @@
+#root {
+  max-width: 100%;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-background {
+  background-color: rgb(0 0 0 / 55%);
+  height: 100vh;
+  position: fixed;
+  top: 0%;
+  left: 25%;
+  width: 75%;
+}
+
+.modal {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 25%;
+  height: 100vh;
+  box-shadow: 5px 0 5px #000;
+}
+
+.modal-content {
+  line-height: 3rem;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.menu-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding-left: 10%;
+}
+
+a:hover {
+  background-color: rgb(217 210 210);
+}
+
+i {
+  font-size: 40px;
+}
