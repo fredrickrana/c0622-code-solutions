@@ -4,10 +4,12 @@ function maxValue(stack) {
   if (stack.peek() === undefined) {
     return -Infinity;
   }
-  const array = [];
+  let highestValue = stack.peek();
   while (stack.peek() !== undefined) {
     const pop = stack.pop();
-    array.push(pop);
+    if (pop > highestValue) {
+      highestValue = pop;
+    }
   }
-  return Math.max(...array);
+  return highestValue;
 }
