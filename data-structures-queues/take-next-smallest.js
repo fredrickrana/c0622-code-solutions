@@ -4,13 +4,13 @@ function takeNextSmallest(queue) {
   if (queue.peek() === undefined) {
     return undefined;
   }
-  const front = queue.dequeue();
+  let front = queue.dequeue();
   if (queue.peek() === undefined) {
     return front;
   }
-  while (front < queue.peek()) {
-    const second = queue.dequeue();
-    queue.enqueue(second);
+  while (front > queue.peek()) {
+    queue.enqueue(front);
+    front = queue.dequeue();
   }
-  return queue.peek();
+  return front;
 }
